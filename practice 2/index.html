@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Grade Evaluator</title>
+  <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+  <h1>Student Grade Evaluator</h1>
+
+  <form id="gradeForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+
+    <label for="math">Math:</label>
+    <input type="number" id="math" placeholder="Enter grade (0-100)" min="0" max="100" required>
+
+    <label for="science">Science:</label>
+    <input type="number" id="science" placeholder="Enter grade (0-100)" min="0" max="100" required>
+
+    <label for="english">English:</label>
+    <input type="number" id="english" placeholder="Enter grade (0-100)" min="0" max="100" required>
+
+    <label for="filipino">Filipino:</label>
+    <input type="number" id="filipino" placeholder="Enter grade (0-100)" min="0" max="100" required>
+
+    <label for="pe">P.E.:</label>
+    <input type="number" id="pe" placeholder="Enter grade (0-100)" min="0" max="100" required>
+
+    <button type="button" id="evaluateButton">Evaluate Grades</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>

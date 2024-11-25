@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .output {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .fizz {
+    color: green;
+    font-weight: bold;
+  }
+
+  .buzz {
+    color: blue;
+    font-weight: bold;
+  }
+
+  .fizzbuzz {
+    color: red;
+    font-weight: bold;
+  }
